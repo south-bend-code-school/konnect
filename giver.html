@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title> Konnect </title>
+    <link href="style.css" rel="stylesheet"></link>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+    <script src='giver.js'></script>
+  </head>
+  <body>
+    <div id="home">
+      <button> <a href="index.html"><img src="MB__home.png"> </a> </button>
+    </div>
+    <div>
+      <img src="konnect.png" alt="" />
+    </div>
+    <h1>Giver Name:</h1>
+    <input id="givername"type="text" name="firstname">
+    <h1>Giver Email:</h1>
+    <input id="giveremail"type="text" name="email">
+    <h1> Topics </h1>
+    <input class="topic" type="checkbox" name="Topics" value="Food" class="list"> Food<br>
+    <input class="topic" type="checkbox" name="Topics" value="Adult Clothing" class="list"> Adult Clothing<br>
+    <input class="topic" type="checkbox" name="Topics" value="Children Clothing" class="list"> Children Clothing<br>
+    <input class="topic" type="checkbox" name="Topics" value="Baby Needs" class="list"> Baby Needs<br>
+    <input class="topic" type="checkbox" name="Topics" value="Other" class="list"> Other (ex.deoderant,feminane ,diapers,blanets ect...)<br>
+    <button id="submitUserInfo">Submit</button>
+  </body>
+</html>

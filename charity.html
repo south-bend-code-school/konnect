@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title> Konnect </title>
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script type="text/javascript">
+       (function(){
+          emailjs.init("user_bHxeINwa8AUafY1168mOo");
+       })();
+    </script>
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
+    <script src="https://www.gstatic.com/firebasejs/3.5.3/firebase.js"></script>
+    <script src='charity.js'></script>
+    <link href="style.css" rel="stylesheet"></link>
+  </head>
+  <body>
+    <div id="home">
+      <button> <a href="index.html"><img src="MB__home.png"> </a> </button>
+    </div>
+    <div>
+      <img src="konnect.png" alt="" />
+    </div>
+    <h1>Welcome to the Charity Request Page!</h1>
+    <p>Select your need category and provide a description.</p>
+    <h1>Charity Name:</h1>
+    <input id="charityname"type="text" name="firstname">
+    <h1>Charity Email:</h1>
+    <input id="charityemail"type="text" name="email">
+
+    <h1> Topic </h1>
+    <select id="topic">
+      <option value="Food">Food</option>
+      <option value="AdultClothing">Adult Clothing</option>
+      <option value="ChildrenClothing">Children Clothing</option>
+      <option value="BabyNeeds">Baby Needs</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <h1>Description of Need:</h1>
+    <input type="textarea" size ="150" id="desc"><br><br>
+    <button id="emailBtn">Send Request Email</button>
+  </body>
+</html>

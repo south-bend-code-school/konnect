@@ -1,0 +1,135 @@
+body {
+
+  color: cornflowerblue;
+
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  height: 400px;
+  font-family: Comic cursive;
+  text-align:left;
+  margin: 80px;
+
+}
+
+
+h1 {
+  text-align: left;
+}
+#me {
+  color: black;
+}
+.you {
+  color:blue ;
+  text-align: center;
+  font-size: 40px;
+}
+.mu{
+  text-align: center;
+  font-size: 25px;
+}
+.me{
+  color: grey;
+  text-align: center;
+  font-size: 35px;
+}
+.intro{
+
+
+   font-size: 25px;
+   color: cornflowerblue;
+    text-align: center;
+}
+/*.grid-container {
+  width: 100%;
+}
+
+.grid {
+font-size: 20px;
+float:left;
+display: inline-block;
+width: 19%;
+height: 200px;
+}
+
+#org1 {
+  border: 4px solid blue;
+  background-image:url("http://www.sschurchofgod.org/uploads/7/3/4/0/7340110/8694752_orig.jpg");
+  background-size: contain;
+
+}
+
+#org2 {
+  border: 4px solid blue;
+  background-image: url("http://maternityhomewithaheart.org/wp-content/themes/DeepFocus/images/Hannahs-House-Logo-Color.png");
+  background-size: contain;
+
+}
+
+#org3 {
+  border: 4px solid blue;
+  background-image: url("http://wsjv.images.worldnow.com/images/22217037_SA.jpg");
+}
+
+#org4 {
+  border: 4px solid blue;
+  background-image: url("http://www.ywcancin.org/atf/cf/%7B6C13D2EE-5ADB-4290-8164-67CDE6DEDE7D%7D/YWCA_LOGO_RGB_OAM_DL.JPG");
+  background-size: contain;
+}
+
+#org5 {
+  border: 4px solid blue;
+  background-image: url("http://static.wixstatic.com/media/23851d_c2fb2bb01ae0bc99f473386a656db421.jpg_srz_149_158_85_22_0.50_1.20_0.00_jpg_srz");
+  background-size: contain;
+}
+#org6 {
+  border: 4px solid blue;
+}
+#org7 {
+  border: 4px solid blue;
+}
+#org8 {
+  border: 4px solid blue;
+}
+#org9 {
+  border: 4px solid blue;
+}
+#org10 {
+  border: 4px solid blue;
+}*/
+
+button{
+  height:175px;
+  width: 175px;
+  font-size: 24px;
+  background-color: blue;
+  color: white;
+
+}
+button:hover{
+  background-color: yellow;
+  transition: 5s;
+}
+
+#choices{
+  display:block;
+  text-align: center;
+
+}
+
+.option {
+  display: inline-block;
+  align-content: flex-end;
+
+}
+#home{
+ display:block;
+ text-align: right;
+}
+.forms{
+padding-top: 50px;
+padding-bottom: 50px;
+
+}
