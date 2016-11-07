@@ -47,11 +47,11 @@ $(document).ready(init);
             });
           }
         }
-      }).then(function(result) {
-          alert("Your emails have been sent");
-          window.location.replace('./giver_thankyou.html');
-        }
+      }
       );
-    });
+    }).then(function(result) {
+        alert("Your emails have been sent");
+        window.location.replace('./giver_thankyou.html');
+      });
   }
 })();
